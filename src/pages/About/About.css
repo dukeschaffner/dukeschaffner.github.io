@@ -1,0 +1,70 @@
+.bggif {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:800px;
+    object-fit: cover;
+    object-position: 0% 80%;
+}
+
+.portrait {
+    border-radius: 50%;
+    width:30%;
+    height:30%;
+    position:absolute;
+    top:-15%;
+    left:15%;
+    object-fit: cover;
+    object-position: 0% 30%;
+}
+
+#bio {
+    background-color: rgba(255, 231, 216, 0.85);
+    position:absolute;
+    width:50%;
+    left:25%;
+    top:35%;
+    height: 700px;
+    margin:auto;
+    z-index:10
+}
+
+#bio-text {
+    width:80%;
+    height:80%;
+    left:10%;
+    top:17%;
+    position:absolute;
+}
+
+#experience-div {
+    background-color: rgba(255, 231, 216, 0.85); /* rgba(227, 232, 241, 0.8); */
+    position:absolute;
+    width:100%;
+    top:1100px;
+    height: 150px;
+}
+
+#experience-header {
+    position:absolute;
+    width:100%;
+    top:30px;
+    font-size: 75px;
+    color: rgb(161, 109, 77);
+}
+
+.experience {
+    position:absolute;
+    width:40%;
+    height:70%;
+    z-index: 11;
+    background-color: rgba(81, 86, 140, 0.85);
+}
+
+#bg2 {
+    position:absolute;
+    width:100%;
+    top:800px;
+    left:0%;
+}
